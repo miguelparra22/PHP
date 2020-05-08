@@ -33,7 +33,7 @@ if(isset($_POST['update'])){
 
 
     
-    $_SESSION['message'] = 'Tarea actualizada con exito';
+$_SESSION['message'] = 'Tarea actualizada con exito';
     $_SESSION['message_type'] = 'warning';
     header("location:index.php");
     
